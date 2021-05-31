@@ -8,6 +8,8 @@ var credentials = new AWS.SharedIniFileCredentials(
 
 AWS.config.credentials = credentials;
 
+AWS.config.update({region: 'us-east-1'});
+
 var createContext = function(name, value, type) {
     return {
         Name: name,
