@@ -44,3 +44,4 @@ za pomocą:
 Jeśli nie wykonaj jeszcze raz:
 
         aws configure --profile panda
+        aws sts get-caller-identity --profile panda
