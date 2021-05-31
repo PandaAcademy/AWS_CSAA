@@ -6,6 +6,8 @@ var credentials = new AWS.SharedIniFileCredentials(
     }
 );
 
+AWS.config.credentials = credentials;
+
 var createContext = function(name, value, type) {
     return {
         Name: name,
