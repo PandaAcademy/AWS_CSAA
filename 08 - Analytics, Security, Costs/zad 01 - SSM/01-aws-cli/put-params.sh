@@ -8,6 +8,6 @@ aws ssm put-parameter \
 
 aws ssm put-parameter \
     --name secure-string-param-name-from-aws-cli \
-    --type SescureString \
+    --type SecureString \
     --value secure-string-value-from-aws-cli \
     --profile panda
