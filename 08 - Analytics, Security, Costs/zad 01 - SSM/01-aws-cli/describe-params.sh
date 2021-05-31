@@ -1,3 +1,3 @@
-#~/bin/bash
+#!/bin/bash
 
-aws ssm describe-parameters
+aws ssm describe-parameters --profile panda
