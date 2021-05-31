@@ -1,4 +1,4 @@
-var AWS = require('aws');
+var AWS = require('aws-sdk');
 
 var credentials = new AWS.SharedIniFileCredentials(
     {
